@@ -26,7 +26,7 @@ const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetid}/values/${s
 
 var sheet_data = [];
 
->>>>>>> 3c718223dc93bf72f165d1ad3db4d9e686279ecd
+
 fetch(url).then(data => data.json()).then(data => { 
 	sheet_data = data.values;
 	console.table(sheet_data);
